@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('/fonts/vazir.woff2') format('woff2'), url('/fonts/vazir.woff') format('woff'), url('/fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('/fonts/vazir-bold.woff2') format('woff2'), url('/fonts/vazir-bold.woff') format('woff'), url('/fonts/vazir-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card {
+    @apply bg-white rounded-md overflow-hidden shadow-[0_4px_6px_rgba(255,255,255,0.2)]  relative
+}

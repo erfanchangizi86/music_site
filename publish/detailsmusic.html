@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="image/fffs.webp" class="h-14 rounded-full" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                    Rap Music</span>
+                </a>
+                <div class="flex md:order-2">
+                    <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+    </svg>
+    <span class="sr-only">Search</span>
+  </button>
+                    <form action="">
+                        <div class="relative hidden md:block md:mt-3 ">
+                            <div class="absolute inset-y-0 start-0 flex items-center ps-3  ">
+                                <button class="cursor-pointer absolute top-2 left-2 ">
+                            <lord-icon src="https://cdn.lordicon.com/fkdzyfle.json" colors="primary:#e8b730" trigger="hover" style="width:20px;height:20px">
+                            </lord-icon>
+                        </button>
+                                <span class="sr-only">Search icon</span>
+                            </div>
+                            <input type="text" id="search-navbar" class="block w-96 p-2  ps-10 text-sm  text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-yellow-500 focus:border-yellow-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-yellow-500 dark:focus:border-yellow-500 outline-none"
+                                placeholder="Search...">
+                        </div>
+                    </form>
+                    <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-search" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+  </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                    <div class="relative mt-3 md:hidden">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+                        </div>
+                        <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Search...">
+                    </div>
+                    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-white bg-yellow-50-700 rounded md:bg-transparent md:text-yellow-700 md:p-0 md:dark:text-yellow-500 font-bold font-vazir" aria-current="page">دانلود اهنگ جدید</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold font-vazir ">موزیک ها</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold font-vazir">درباره ما</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="grid grid-cols-5 gap-4 min-h-screen bg-gray-100 text-gray-800">
+            <!-- محتوای اصلی -->
+            <div class="col-span-4 mt-4">
+                <div class="bg-white rounded-lg p-6 shadow-xl max-w-lg mx-auto ">
+                    <pre class="p-4 font-vazir text-center text-gray-700 whitespace-pre-line leading-relaxed">
+                        <h1 class="text-2xl">متن اهنگ</h1>
+                        تو آیفونمم مینویسم
+                        از قلم و کاغذم خبری …
+                        نیست
+                        تازه این یکی هم مثه خونه خوبه
+                        رو بیت مغز در رفته
+                        مینویسم
+                
+                        بعدا آقا نادر زیرشو عوض میکنه
+                        هه هه ههههه …
+                        مگه داریم
+                        آقا نادر بریم …
+                
+                        ……………………………………………………
+                
+                        من از اون دسته افراد رکم که
+                        رد داده مخم رو افکار پرم
+                        من متنفرم از جای بلند
+                        تو زیر زمینم با همکار گلم و
+                        امثال خودم با فردای دو رنگ
+                        و حرفای دو پهلو
+                        دردای کهن توی
+                        توی کارمم پر نا مردای
+                    </pre>
+                </div>
+
+
+                <div class="bg-white rounded-lg overflow-hidden shadow-xl relative mt-6 mx-auto w-96">
+                    <div class="bg-white p-5 text-right">
+                        <p>دانلود اهنگ امیر تتلو من باهات قهرم</p>
+                    </div>
+                    <a href="#" class="block">
+                        <img src="image/Amir-Tataloo-Zemestoon-AI.jpg" alt="تصویر آهنگ" class="h-60 w-full object-cover">
+                    </a>
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg">🎵 اهنگ رپ تتلو</h3>
+                        <p class="text-sm text-gray-600 mt-1">مال من باش</p>
+                        <div class="mt-4">
+                            <audio class="w-full" controls>
+                                <source src="audio/Tanha Bash.mp3" type="audio/mpeg">
+                                مرورگر شما پخش فایل‌های صوتی را پشتیبانی نمی‌کند.
+                            </audio>
+                        </div>
+                        <div class="mt-6">
+                            <a href="audio/Tanha Bash.mp3" class="inline-block bg-black text-white py-2 px-4 rounded-md mt-2 ml-4 hover:bg-gray-700 transition duration-300" download="audio/Tanha Bash.mp3">
+                                دانلود با کیفیت 128 kbps
+                            </a>
+                            <a href="audio/Tanha Bash.mp3" class="inline-block bg-black text-white py-2 px-4 rounded-md mt-2 ml-4 hover:bg-gray-700 transition duration-300" download="audio/Tanha Bash.mp3">
+                                دانلود با کیفیت 320 kbps
+                            </a>
+                            <a href="audio/Tanha Bash.mp3" class="inline-block bg-black text-white py-2 px-4 rounded-md mt-2 ml-4 hover:bg-gray-700 transition duration-300" download="audio/Tanha Bash.mp3">
+                                دانلود با کیفیت 480 kbps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- سایدبار -->
+            <div class="col-span-1 bg-gray-800  mt-10 p-4 rounded shadow-xl">
+                <div class="text-center mt-3">
+                    <div class="flex justify-center items-center gap-2">
+                        <lord-icon src="https://cdn.lordicon.com/jpzhmobh.json" trigger="hover" style="width:40px;height:40px">
+                        </lord-icon>
+                        <h1 class="text-xl font-bold text-white">آهنگ‌ها</h1>
+                    </div>
+                    <ul class="mt-4 text-gray-100">
+                        <li class="mb-2 hover:bg-yellow-600 hover:text-black py-1 px-2 rounded"><a href="#">آلبوم</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black py-1 px-2 rounded"><a href="#">ریمیکس‌های جدید</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black py-1 px-2 rounded"><a href="#">رَپ ریمیکس</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black py-1 px-2 rounded"><a href="#">پاپ</a></li>
+                    </ul>
+                </div>
+                <div class="text-center mt-6">
+                    <div class="flex justify-center items-center gap-2">
+                        <lord-icon src="https://cdn.lordicon.com/iiudwewg.json" trigger="hover" style="width:35px;height:35px">
+                        </lord-icon>
+                        <h1 class="text-xl text-white font-bold">آرشیو خوانندگان</h1>
+                    </div>
+                    <ul class="mt-4 text-gray-100">
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">رضا پیشرو</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">امیر تتلو</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">یاس</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">هیچکس</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">حسین</a></li>
+                        <li class="mb-2  hover:bg-yellow-600  hover:text-black  py-1 px-2 rounded"><a href="#">فدایی</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-gray-100 shadow-lg pt-20 px-10 pb-10 rounded-sm mr-80 mt-20 ml-60 relative">
+            <div class="text-center ">
+                <p class="absolute top-4 left-80 text-lg">اهنگ های مرتبط با امیر تتلو</p>
+            </div>
+
+            <div class="grid grid-cols-4 gap-7 h-60">
+                <div class=" bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 relative group">
+                    <a href="#" class="block">
+                        <div class="relative">
+                            <img src="image/images.jpeg" alt="" class="h-40 w-full object-cover rounded-t-lg transform group-hover:scale-110 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-2 text-center">
+                            <span class="text-yellow-400 font-bold uppercase block text-lg">آهنگ رپ تتلو</span>
+                            <span class="text-gray-300 text-sm">بیبی گرگ</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 relative group">
+                    <a href="#" class="block">
+                        <div class="relative">
+                            <img src="image/images.jpeg" alt="" class="h-40 w-full object-cover rounded-t-lg transform group-hover:scale-110 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-4 text-center">
+                            <span class="text-yellow-400 font-bold uppercase block text-lg">آهنگ رپ تتلو</span>
+                            <span class="text-gray-300 text-sm">بیبی گرگ</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 relative group">
+                    <a href="#" class="block">
+                        <div class="relative">
+                            <img src="image/images.jpeg" alt="" class="h-40 w-full object-cover rounded-t-lg transform group-hover:scale-110 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-4 text-center">
+                            <span class="text-yellow-400 font-bold uppercase block text-lg">آهنگ رپ تتلو</span>
+                            <span class="text-gray-300 text-sm">بیبی گرگ</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 relative group">
+                    <a href="#" class="block">
+                        <div class="relative">
+                            <img src="image/images.jpeg" alt="" class="h-40 w-full object-cover rounded-t-lg transform group-hover:scale-110 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-4 text-center">
+                            <span class="text-yellow-400 font-bold uppercase block text-lg">آهنگ رپ تتلو</span>
+                            <span class="text-gray-300 text-sm">بیبی گرگ</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg-gray-900 p-10 mt-96">
+        <div class="text-yellow-500 text-center">
+            تمام حقوق قالب و محتوای سایت محفوظ است و هرگونه کپی برداری غیر قانونی و بدون اجازه از سایت <span class="font-bold">موزیک رپ</span> پیگرد قانونی دارد.
+        </div>
+        <div>
+            <p class="text-yellow-500 text-center text-2xl mt-3">
+                تلفن: <span class="font-bold "> ۰۹۹۱۰۰۰۱۲۰۰</span>
+            </p>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.lordicon.com/lordicon.js "></script>
+
+</html>
