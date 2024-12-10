@@ -2,7 +2,9 @@
 module.exports = {
     content: ["./publish/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+
+        },
     },
     plugins: [],
     theme: {

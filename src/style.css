@@ -19,3 +19,4 @@
 .card {
     @apply bg-white rounded-md overflow-hidden shadow-[0_4px_6px_rgba(255,255,255,0.2)]  relative
 }
+
